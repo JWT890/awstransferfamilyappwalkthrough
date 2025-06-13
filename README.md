@@ -35,6 +35,10 @@ For IAM role choose the create new role option and click on register location to
 After its created, you then want to create a grant by clicking the Create Grant orange button. After clicking it, you will want to click on browse locations and select the path of the S3 bucket and select choose path.  
 For subprefix put *, permissions set to read and write, grantee type being a directory identity from IAM Center, type as User and put the user ID copied down as the input. Click on Create Grant.  
 
+Fourth step is to head back to the AWS Transfer Family and click on Web apps once again. Click on the Access endpoint option. You should see something like this:  
+![image](https://github.com/user-attachments/assets/6d67ae54-face-461e-ae1e-043e5dc20937)  
+Click on the folder and and you will see a network error screen. Locate the 3 dots in the right side of the screen and choose create a folder.  
+Name the folder and click on create folder.
 
 
 
