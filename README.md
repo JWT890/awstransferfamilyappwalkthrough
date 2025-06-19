@@ -38,7 +38,12 @@ For subprefix put *, permissions set to read and write, grantee type being a dir
 Fourth step is to head back to the AWS Transfer Family and click on Web apps once again. Click on the Access endpoint option. You should see something like this:  
 ![image](https://github.com/user-attachments/assets/6d67ae54-face-461e-ae1e-043e5dc20937)  
 Click on the folder and and you will see a network error screen. Locate the 3 dots in the right side of the screen and choose create a folder.  
-Name the folder and click on create folder.
+Name the folder and click on create folder.  
+After that the folder will be created and within the folder add a couple files.  
+Then head to the S3 Bucket and click on the objects tab and see the folder that you created and click on it. Should look like this:  
+![image](https://github.com/user-attachments/assets/4797158c-bd31-48e1-9c3b-8bd064678c9b)  
+
+Final step is to clean up everything in the Transfer Web App, S3, and the Grants section. After that you have learned how to use the Amazon Transfer App for file transfering and displaying. 
 
 
 
